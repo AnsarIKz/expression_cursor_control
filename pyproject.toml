@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "expression-cursor-control"
+version = "0.1.0"
+description = ""
+authors = ["Ansar Nurzhanov <nansarik@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.9.0.80"
+dlib = "^19.24.2"
+pyautogui = "^0.9.54"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
